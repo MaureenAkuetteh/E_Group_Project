@@ -45,7 +45,7 @@ FACEBOOK: https://www.facebook.com/themefisher
   <link rel="stylesheet" href="../plugins/slick/slick-theme.css">
   
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="../css/loginstyle.css">
+  <link rel="stylesheet" href="../css/stylesheet.css">
 
 </head>
 
