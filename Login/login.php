@@ -60,15 +60,15 @@ FACEBOOK: https://www.facebook.com/themefisher
             <img src="images/logo.png" alt="">
           </a>
           <h2 class="text-center">Welcome Back</h2>
-          <form class="text-left clearfix" action="index.html" >
+          <form class="text-left clearfix" action="loginprocess.php" method="POST" >
             <div class="form-group">
-              <input type="email" class="form-control"  placeholder="Email">
+              <input type="email" class="form-control" name = "loginEmail" placeholder="Email">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control" placeholder="Password">
+              <input type="password" class="form-control" name = "loginPassword" placeholder="Password">
             </div>
             <div class="text-center">
-              <button type="submit" class="btn btn-main text-center" >Login</button>
+              <button type="submit" class="btn btn-main text-center" name="customerLogin" >Login</button>
             </div>
           </form>
           <p class="mt-20">New in this site ?<a href="signup.php"> Create New Account</a></p>

@@ -45,24 +45,27 @@
             <img src="images/logo.png" alt="">
           </a>
           <h2 class="text-center">Create Your Account</h2>
-          <form class="text-left clearfix" action="#">
+          <form class="text-left clearfix" action="registerprocess.php" method = "POST">
             <div class="form-group">
-              <input type="text" class="form-control"  placeholder="First Name">
+              <input type="text" class="form-control" name = "username" placeholder="Username">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Last Name">
+              <input type="email" class="form-control" name = "email" placeholder="Email">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Username">
+              <input type="password" class="form-control" name = "password"  placeholder="Password">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control"  placeholder="Email">
+              <input type="text" class="form-control"  name = "country" placeholder="Country">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control"  placeholder="Password">
+              <input type="text" class="form-control" name = "city"  placeholder="City">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name = "contact-number"  placeholder="Number">
             </div>
             <div class="text-center">
-              <button type="submit" class="btn btn-main text-center">Sign Up</button>
+              <button type="submit" name = "addCustomerButton" class="btn btn-main text-center">Sign Up</button>
             </div>
           </form>
           <p class="mt-20">Already have an account ?<a href="login.php"> Login</a></p>
