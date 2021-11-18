@@ -102,46 +102,7 @@ if (check_permission() != 1) {
         <!--**********************************
             Sidebar start
         ***********************************-->
-        <div class="nk-sidebar">           
-            <div class="nk-nav-scroll">
-                <ul class="metismenu" id="menu">
-                    <li class="nav-label">Dashboard</li>
-                    <li>
-                        <a class="" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-speedometer menu-icon"></i><span class="nav-text">Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="mega-menu mega-menu-sm">
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Products</span>
-                        </a>
-                        <ul aria-expanded="false">
-                            <li><a href="./layout-blank.html">Add New Product</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="mega-menu mega-menu-sm">
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Brands</span>
-                        </a>
-                        <ul aria-expanded="false">
-                            <li><a href="./layout-blank.html">Add brand</a></li>
-                        </ul>
-                    </li>
-
-                    
-                    <li class="mega-menu mega-menu-sm">
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Categories</span>
-                        </a>
-                        <ul aria-expanded="false">
-                            <li><a href="./layout-blank.html">Add cateogry</a></li>
-                        </ul>
-                    </li>
-                </ul> 
-            </div>
-        </div>
-
+        <?php include('sidebar.php'); ?>  
 
                  
         <!--**********************************
@@ -168,7 +129,7 @@ if (check_permission() != 1) {
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Brands</h4>
+                                <h4 class="card-title">Categories</h4>
                                 <div class="table-responsive">
                                     <table class="table table-striped table-bordered zero-configuration">
                                         <thead>
@@ -188,7 +149,8 @@ if (check_permission() != 1) {
                                             <tr>
                                             <td>{$x['cat_id']}</td>
                                             <td>{$x['cat_name']}</td>
-                                            <td><a href='../Admin/Update_category_form.php?id={$x['cat_id']}'>Update</a></td>
+                                            <td><a href='../Admin/Update_category.php?id={$x['cat_id']}'>Update</a></td>
+                                            <td><a href='../Actions/Delete_category.php?id={$x['cat_id']}'>Delete</a></td>
                                             </tr>
                                             ";
                                             }

@@ -5,7 +5,7 @@ check_login();
 
 if(isset($_POST['addCategoryButton'])){
 
-    //get brand name from form
+    //get category name from form
     $categoryname = $_POST['category_name'];
     
 

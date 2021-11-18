@@ -82,6 +82,17 @@ class Product extends Connection {
         return $this->fetchOne("select * from products inner join brands on product_brand = brand_id inner join categories on product_cat = cat_id where product_id = '$id'");
     }
 
+    
+    function delete_one_brand($id){
+        //returns true or false
+        return $this->query("delete from brands where brand_id = '$id'");
+    }
+
+    function delete_one_category($id){
+        //returns true or false
+        return $this->query("delete from categories where cat_id = '$id'");
+    }
+
    
     
 }

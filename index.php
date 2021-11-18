@@ -66,8 +66,8 @@
 								<li><a href="#">Lamps</a></li>
 							</ul>
 						</li>
-						<li><a href="about.php">About</a></li>
-						<li><a href="view/contact.php">Contact</a></li>
+						<li><a href="Views/about.php">About</a></li>
+						<li><a href="Views/contact.php">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">

@@ -29,10 +29,7 @@ if (check_permission() != 1) {
 </head>
 
 <body>
-
-    <!--*******************
-        Preloader start
-    ********************-->
+        <!-- Preloader start -->
     <div id="preloader">
         <div class="loader">
             <svg class="circular" viewBox="25 25 50 50">
@@ -40,19 +37,9 @@ if (check_permission() != 1) {
             </svg>
         </div>
     </div>
-    <!--*******************
-        Preloader end
-    ********************-->
-
-    
-    <!--**********************************
-        Main wrapper start
-    ***********************************-->
+        <!-- Main wrapper start -->
     <div id="main-wrapper">
-
-        <!--**********************************
-            Nav header start
-        ***********************************-->
+            <!-- Nav header start -->
         <div class="nav-header">
             <div class="brand-logo">
                 <a href="index.html">
@@ -64,13 +51,8 @@ if (check_permission() != 1) {
                 </a>
             </div>
         </div>
-        <!--**********************************
-            Nav header end
-        ***********************************-->
-
-        <!--**********************************
-            Header start
-        ***********************************-->
+            <!-- Nav header end -->
+            <!-- Header start -->
         <div class="header">    
             <div class="header-content clearfix">
                 
@@ -92,64 +74,16 @@ if (check_permission() != 1) {
                         </div>
                     </div>
                 </div>
-           
-
-
             </div>
         </div>
+            <!-- Sidebar start -->
+     
+            <?php include('sidebar.php'); ?>         
+        
+            <!-- Sidebar end -->
       
-        <!--**********************************
-            Sidebar start
-        ***********************************-->
-        <div class="nk-sidebar">           
-            <div class="nk-nav-scroll">
-                <ul class="metismenu" id="menu">
-                    <li class="nav-label">Dashboard</li>
-                    <li>
-                        <a class="" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-speedometer menu-icon"></i><span class="nav-text">Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="mega-menu mega-menu-sm">
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Products</span>
-                        </a>
-                        <ul aria-expanded="false">
-                            <li><a href="./layout-blank.html">Add New Product</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="mega-menu mega-menu-sm">
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Brands</span>
-                        </a>
-                        <ul aria-expanded="false">
-                            <li><a href="./layout-blank.html">Add brand</a></li>
-                        </ul>
-                    </li>
-
-                    
-                    <li class="mega-menu mega-menu-sm">
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Categories</span>
-                        </a>
-                        <ul aria-expanded="false">
-                            <li><a href="./layout-blank.html">Add cateogry</a></li>
-                        </ul>
-                    </li>
-                </ul> 
-            </div>
-        </div>
-
-
-                 
-        <!--**********************************
-            Sidebar end
-        ***********************************-->
-
-        <!--**********************************
-            Content body start
-        ***********************************-->
+     
+            <!-- Content body start -->
         <div class="content-body">
 
             <div class="row page-titles mx-0">
@@ -198,14 +132,14 @@ if (check_permission() != 1) {
                 </div>
             </div>
         </div>
-        <!--**********************************
-            Content body end
-        ***********************************-->
+    
+            <!-- Content body end -->
+    
         
         
-        <!--**********************************
-            Footer start
-        ***********************************-->
+       
+            <!-- Footer start  -->
+    
         <div class="footer">
             <div class="copyright">
                 <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>

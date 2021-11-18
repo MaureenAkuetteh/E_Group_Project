@@ -89,10 +89,28 @@ function select_one_product_controller($id){
 }
 
 function update_one_product_controller($id, $product_cat, $product_brand, $product_title, $product_price, $product_desc, $product_image, $product_keywords){
-    //create an instance of the producr class
+    //create an instance of the product class
     $product_instance = new Product();
     //call the method from the class
     return $product_instance-> update_one_product($id, $product_cat, $product_brand, $product_title, $product_price, $product_desc, $product_image, $product_keywords);
 }
 
+
+
+function delete_one_brand_controller($id){
+     //create an instance of the product class
+    $product_instance = new Product();
+    //call the method from the class
+    return $product_instance-> delete_one_brand($id);
+
+}
+
+
+function delete_one_category_controller($id){
+    //create an instance of the product class
+   $product_instance = new Product();
+   //call the method from the class
+   return $product_instance-> delete_one_category($id);
+
+}
 // var_dump(select_one_product_controller('13'));
