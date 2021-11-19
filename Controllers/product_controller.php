@@ -120,4 +120,7 @@ function delete_one_product_controller($id){
    //call the method from the class
    return $product_instance-> delete_one_product($id);
 }
+
+
+
 // var_dump(select_one_product_controller('13'));

@@ -139,78 +139,6 @@
 	  	</div>
 	</aside>
 
-	<!-- PRODUCT CATEGORIES -->
-
-	<div id="fh5co-services">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Product Categories.</h2>
-					<p>Take a quick look at the most popular products you can personalize</p>
-				</div>
-			</div>
-			<!-- Bracelet category  -->
-			<div class="row">
-				<div class="col-md-4 text-center animate-box">
-					<div class="product">
-						<div class="product-grid" style="background-image:url(images/products/bracelet.jpg);">
-							<div class="inner">
-								<p>
-									<a href="Product-view/single_product.php" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="Product-view/single_product.php" class="icon"><i class="icon-eye"></i></a>
-								</p>
-							</div>
-						</div>
-						<div class="desc">
-							<h3><a href="#">Customizable bracelets</a></h3>
-							<span class="price">$12</span>
-						</div>
-					</div>
-				</div>
-				<!-- Bracelet category  -->
-
-				<!-- Stationery category  -->
-				<div class="col-md-4 text-center animate-box">
-					<div class="product">
-						<div class="product-grid" style="background-image:url(images/products/stationery.jpg);">
-							<span class="sale">Sale</span>
-							<div class="inner">
-								<p>
-									<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="single.html" class="icon"><i class="icon-eye"></i></a>
-								</p>
-							</div>
-						</div>
-						<div class="desc">
-							<h3><a href="single.html">Stationery</a></h3>
-							<span class="price">$20</span>
-						</div>
-					</div>
-				</div>
-					<!-- Stationery category  -->
-
-					<!-- Lamp category  -->
-				<div class="col-md-4 text-center animate-box">
-					<div class="product">
-						<div class="product-grid" style="background-image:url(images/products/lamp.jpg);">
-							<div class="inner">
-								<p>
-									<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="single.html" class="icon"><i class="icon-eye"></i></a>
-								</p>
-							</div>
-						</div>
-						<div class="desc">
-							<h3><a href="single.html">Customizable lamps</a></h3>
-							<span class="price">$80</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- PRODUCT CATEGORIES -->
-
 	<!-- TRENDING PRODUCTS -->
 
 	<div id="fh5co-product">
@@ -227,8 +155,8 @@
 						<div class="product-grid" style="background-image:url(images/products/bracelet.jpg);">
 							<div class="inner">
 								<p>
-									<a href="Product-view/single_product.php" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="Product-view/single_product.php" class="icon"><i class="icon-eye"></i></a>
+									<a href="Views/single_product.php" class="icon"><i class="icon-shopping-cart"></i></a>
+									<a href="Views/single_product.php" class="icon"><i class="icon-eye"></i></a>
 								</p>
 							</div>
 						</div>
@@ -324,7 +252,7 @@
 			</div>
 		</div>
 	</div>
-	
+	<!-- trending products  -->
 	<div id="fh5co-testimonial" class="fh5co-bg-section">
 		<div class="container">
 			<div class="row animate-box">

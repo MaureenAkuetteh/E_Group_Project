@@ -148,7 +148,7 @@
                       	</div>
 					</div>
 					<div class="product-content">
-						<h4><a href="product-single.html">Beaded bracelet</a></h4>
+						<h4><a href="product-single.htmls">Beaded bracelet</a></h4>
 						<p class="price">$35</p>
 					</div>
 				</div>

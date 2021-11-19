@@ -98,7 +98,8 @@ class Product extends Connection {
         return $this->query("delete from products where product_id = '$id'");
     }
 
-   
+    //trending products
+
     
 }
 
