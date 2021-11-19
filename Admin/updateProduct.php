@@ -3,14 +3,14 @@
 require('../Settings/core.php');
 require('../Controllers/product_controller.php');
 
-// check_login();
-// if (check_permission() != 1) {
+check_login();
+if (check_permission() != 1) {
 
-//   echo 'you are not an admin';
+  echo 'you are not an admin';
 
-//   //redirect to index.php
-//   header('Location: ../Login/login.php');
-// }
+  //redirect to index.php
+  header('Location: ../Login/login.php');
+}
 
 $product = select_one_product_controller($_GET['id']);
 
@@ -191,7 +191,7 @@ $product = select_one_product_controller($_GET['id']);
                                         </div>
                                         <div class="form-group row">
                                             <div class="col-lg-8 ml-auto">
-                                                <button type="submit" class="btn btn-primary" name="addProductButton">Submit</button>
+                                                <button type="submit" class="btn btn-primary" name="updateProductButton">Submit</button>
                                             </div>
                                         </div>
                                     </form>

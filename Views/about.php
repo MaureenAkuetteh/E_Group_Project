@@ -59,12 +59,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Lifestyle101.</a></div>
+					<div id="fh5co-logo"><a href="../index.php">Lifestyle101.</a></div>
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
-						<li class="active"><a href="Login/login.php">Login</a></li>
-						<li class="active"><a href="index.php">Home</a></li>
+						<li class="active"><a href="../Login/login.php">Login</a></li>
+						<li class="active"><a href="../index.php">Home</a></li>
 						<li class="has-dropdown">
 							<a href="#">Categories</a>
 							<ul class="dropdown">
@@ -73,7 +73,7 @@
 								<li><a href="#">Lamps</a></li>
 							</ul>
 						</li>
-						<li class="active"><a href="Views/about.php">About</a></li>
+						<li class="active"><a href="about.php">About</a></li>
 						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>

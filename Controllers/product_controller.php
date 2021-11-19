@@ -113,4 +113,11 @@ function delete_one_category_controller($id){
    return $product_instance-> delete_one_category($id);
 
 }
+
+function delete_one_product_controller($id){
+    //create an instance of the product class
+   $product_instance = new Product();
+   //call the method from the class
+   return $product_instance-> delete_one_product($id);
+}
 // var_dump(select_one_product_controller('13'));

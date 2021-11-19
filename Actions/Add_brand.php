@@ -2,6 +2,7 @@
 require("../Controllers/product_controller.php");
 require('../Settings/core.php');
 check_login();
+
 // add brand
 if(isset($_POST['addBrandButton'])){
 

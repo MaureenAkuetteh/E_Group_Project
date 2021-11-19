@@ -1,3 +1,18 @@
+<?php
+require('../Settings/core.php');
+// var_dump($_SESSION['user_role']);
+// var_dump($_SESSION['user_id']);
+check_login();
+if (check_permission() != 1) {
+
+    echo 'you are not an admin';
+  
+    //redirect to index.php
+    header('Location: ../Login/login.php');
+  
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

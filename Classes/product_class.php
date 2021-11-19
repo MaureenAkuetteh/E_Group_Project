@@ -93,6 +93,11 @@ class Product extends Connection {
         return $this->query("delete from categories where cat_id = '$id'");
     }
 
+    function delete_one_product($id){
+        //returns true or false
+        return $this->query("delete from products where product_id = '$id'");
+    }
+
    
     
 }
